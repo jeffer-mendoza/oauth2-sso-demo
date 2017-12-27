@@ -1,6 +1,20 @@
-auth-server: http://192.168.0.174:9999/uaa
 server:
-  port: 8080
+    port: 8079    
+
+#config:
+#    oauth2:
+#        clientID: confidential
+#        clientSecret: secret
+#        accessTokenUri: http://localhost:8081/oauth/token
+#        userAuthorizationUri: http://localhost:8081/oauth/authorize
+#        resourceURI: http://localhost:8082/api/
+
+#security:
+#    basic:
+#        enabled: false
+
+
+auth-server: http://192.168.0.174:9999/uaa
 security:
   basic:
     enabled: false
